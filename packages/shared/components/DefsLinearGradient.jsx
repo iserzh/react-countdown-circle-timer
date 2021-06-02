@@ -56,7 +56,7 @@ DefsLinearGradient.propTypes = {
   defs: TagType,
   linearGradient: TagType,
   stop: TagType,
-  direction: countdownCircleTimerProps,
+  direction: countdownCircleTimerProps.gradientDirection,
 }
 
 export { DefsLinearGradient }
