@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { countdownCircleTimerProps } from '..'
 
-import { DIRECTION_VALUES } from './constants';
+import { DIRECTION_VALUES } from '../utils/constants';
 
 const getStopProps = (colors) => {
   const isColorsString = typeof colors === 'string'
